@@ -11,7 +11,7 @@ pipeline {
 
     stage('Checkout Source') {
       steps {
-        git 'https://github.com/Dragane/jenkins-kubernetes-cicd.git'
+        git 'http://github.com/Dragane/jenkins-kubernetes-cicd.git'
       }
     }
 
